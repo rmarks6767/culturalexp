@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
 import Content from '../Content/Content';
 import Footer from '../Footer/Footer';
 import {BrowserRouter as Router} from 'react-router-dom';
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header/>
+        <Navbar/>
         <Content/>
         <Footer/>
       </Router>
