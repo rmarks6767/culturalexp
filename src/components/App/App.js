@@ -1,16 +1,18 @@
 
 import React from 'react';
 import './App.css';
-import Navbar from '../Navbar/Navbar';
+import Header from '../Header/Header';
 import Content from '../Content/Content';
 import Footer from '../Footer/Footer';
-import {BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
+        <Header/>
         <Content/>
         <Footer/>
       </Router>
