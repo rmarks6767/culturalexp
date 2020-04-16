@@ -1,0 +1,45 @@
+.tiles {
+    margin-left: auto;
+    margin-right: auto;
+    display: ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    -ms-grid-columns: 1fr 1.035fr 1fr;
+    grid-template-columns: 1fr 1.035fr 1fr;
+    grid-auto-rows: auto;
+    max-width: 1416px;
+    padding: 10px;
+    --bento-row-height: 155px;
+}
+.tile-materials {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+}
+
+.tile {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #131313;
+    background-position: center;
+    cursor: default;
+}
+
+.tile-label {
+    position: relative;
+    z-index: 1;
+}
