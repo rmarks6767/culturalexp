@@ -6,13 +6,13 @@ import './Header.css';
 class Header extends Component {
     render(){
         return (
-            <Navbar bg="dark" variant="dark" expand="sm">
-                <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar.Brand>Cultural Experience Project</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Navbar.Brand>Cultural Experience Project</Navbar.Brand>
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/images">Images</Nav.Link>
-                        <Nav.Link href="/about">About</Nav.Link>
+                    <Nav.Link href="https://github.com/rmarks6767">Personal Github</Nav.Link>
+                    <Nav.Link href="https://irusa.org/middle-east/iraq/">Donate to Iraq Relief Fund</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

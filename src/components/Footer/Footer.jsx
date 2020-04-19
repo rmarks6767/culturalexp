@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import GithubLogo from './github.svg';
-import Card from 'react-bootstrap/Card'
 import './Footer.css';
 
 class Footer extends Component {

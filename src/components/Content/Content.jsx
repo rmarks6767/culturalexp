@@ -23,7 +23,7 @@ class Content extends Component {
         // The time before each image will change
         this.timerID = setInterval(
           () => this.changeImage(),
-          15000
+          30000
         );
     }
     
